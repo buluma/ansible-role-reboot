@@ -34,10 +34,8 @@ molecule:
         tag: "rawhide"
       # - image: "opensuse"
       #  tag: "latest"
-      - image: "docker-ubuntu2004-ansible"
-        tag: "latest"
-      - image: "debian"
-        tag: "testing"
+      # - image: "docker-ubuntu2004-ansible"
+      #  tag: "latest"
       # - image: "ubuntu"     # TODO fatal: [reboot-ubuntu-bionic]: FAILED! => {"changed": false, "msg": "No package matching 'needrestart' is available"}
       #  tag: "bionic"
 
