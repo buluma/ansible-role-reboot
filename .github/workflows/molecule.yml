@@ -47,8 +47,8 @@ jobs:
             tag: "latest"
           - image: "fedora"
             tag: "rawhide"
-          - image: "ubuntu"
-            tag: "docker-ubuntu2204-ansible"
+          - image: "docker-ubuntu2204-ansible"
+            tag: "latest"
     steps:
       - name: checkout
         uses: actions/checkout@v2

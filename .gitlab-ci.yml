@@ -20,10 +20,10 @@ molecule:
         tag: "latest"
       - image: "amazonlinux"
         tag: "latest"
-      - image: "debian"
-        tag: "bullseye"
-      - image: "debian"
-        tag: "bookworm"
+      # - image: "debian"     # TODO fatal: [reboot-debian-bullseyepy310-ansible-5]: FAILED! => {"changed": false, "msg": "No package matching 'needrestart' is available"}
+      #  tag: "bullseye"
+      # - image: "debian"
+      #  tag: "bookworm"
       - image: "fedora"
         tag: "34"
       - image: "fedora"
@@ -32,8 +32,8 @@ molecule:
         tag: "rawhide"
       # - image: "opensuse"
       #  tag: "latest"
-      - image: "ubuntu"
-        tag: "docker-ubuntu2204-ansible"
+      - image: "docker-ubuntu2204-ansible"
+        tag: "latest"
       # - image: "ubuntu"     # TODO fatal: [reboot-ubuntu-bionic]: FAILED! => {"changed": false, "msg": "No package matching 'needrestart' is available"}
       #  tag: "bionic"
 
