@@ -11,7 +11,6 @@ rules:
   line-length: disable
   truthy: disable
   comments-indentation: disable
-  ignore-errors: disable
 
 ignore: |
   .tox/
