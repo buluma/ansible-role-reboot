@@ -4,7 +4,7 @@ The purpose of this role is to reboot your system.
 
 |GitHub|GitLab|Quality|Downloads|Version|
 |------|------|-------|---------|-------|
-|[![github](https://github.com/buluma/ansible-role-reboot/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-reboot/actions)|[![gitlab status](https://gitlab.com/buluma/ansible-role-reboot/badges/main/pipeline.svg)](https://gitlab.com/buluma/ansible-role-reboot/-/commits/main)|[![quality](https://img.shields.io/ansible/quality/57907)](https://galaxy.ansible.com/buluma/python_pip)|[![downloads](https://img.shields.io/ansible/role/d/57907)](https://galaxy.ansible.com/buluma/python_pip)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-reboot.svg)](https://github.com/buluma/ansible-role-reboot/releases/)|
+|[![github](https://github.com/buluma/ansible-role-reboot/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-reboot/actions)|[![gitlab status](https://gitlab.com/buluma/ansible-role-reboot/badges/main/pipeline.svg)](https://gitlab.com/buluma/ansible-role-reboot/-/commits/main)|[![quality](https://img.shields.io/ansible/quality/57907)](https://galaxy.ansible.com/buluma/reboot)|[![downloads](https://img.shields.io/ansible/role/d/57907)](https://galaxy.ansible.com/buluma/reboot)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-reboot.svg)](https://github.com/buluma/ansible-role-reboot/releases/)|
 
 ## [Example Playbook](#example-playbook)
 
