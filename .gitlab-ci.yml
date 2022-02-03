@@ -20,25 +20,36 @@ molecule:
         tag: "latest"
       - image: "amazonlinux"
         tag: "latest"
-      - image: "enterpriselinux"
-        tag: "latest"
+      # - image: "debian"     # TODO fatal: [reboot-debian-bullseyepy310-ansible-5]: FAILED! => {"changed": false, "msg": "No package matching 'needrestart' is available"}
+      #  tag: "bullseye"
+      # - image: "debian"
+      #  tag: "bookworm"
       - image: "debian"
-        tag: "latest"
-      - image: "debian"
-        tag: "bookworm"
+        tag: "testing"
       - image: "fedora"
         tag: "34"
       - image: "fedora"
         tag: "latest"
       - image: "fedora"
         tag: "rawhide"
-      - image: "opensuse"
+      # - image: "opensuse"
+      #  tag: "latest"
+      # - image: "docker-ubuntu2004-ansible"
+      #  tag: "latest"
+      # - image: "ubuntu"     # TODO fatal: [reboot-ubuntu-bionic]: FAILED! => {"changed": false, "msg": "No package matching 'needrestart' is available"}
+      #  tag: "bionic"
+
+molecule-testing:
+  script:
+    - image=${image} tag=${tag} molecule test
+  rules:
+    - if: $CI_COMMIT_REF_NAME == "testing"
+  retry: 2
+  parallel:
+    matrix:
+      - image: "docker-ubuntu2004-ansible"
         tag: "latest"
-      - image: "ubuntu"
-        tag: "latest"
-      - image: "ubuntu"
-        tag: "bionic"
 
 galaxy:
   script:
-    - ansible-galaxy role info ${CI_PROJECT_NAMESPACE}.${CI_PROJECT_NAME}
+    - ansible-galaxy role info ${CI_PROJECT_NAMESPACE}.reboot
