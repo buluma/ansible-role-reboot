@@ -16,40 +16,61 @@ molecule:
   retry: 1
   parallel:
     matrix:
-      - image: "alpine"
+      - image: "alpine-openrc"
         tag: "latest"
       - image: "amazonlinux"
         tag: "latest"
-      # - image: "debian"     # TODO fatal: [reboot-debian-bullseyepy310-ansible-5]: FAILED! => {"changed": false, "msg": "No package matching 'needrestart' is available"}
-      #  tag: "bullseye"
-      # - image: "debian"
-      #  tag: "bookworm"
-      - image: "debian"
-        tag: "testing"
-      - image: "fedora"
-        tag: "34"
-      - image: "fedora"
+      - image: "enterpriselinux"
         tag: "latest"
-      - image: "fedora"
+      - image: "debian-systemd"
+        tag: "latest"
+      - image: "debian-systemd"
+        tag: "bookworm"
+      - image: "fedora-systemd"
+        tag: "34"
+      - image: "fedora-systemd"
+        tag: "latest"
+      - image: "fedora-systemd"
         tag: "rawhide"
-      # - image: "opensuse"
-      #  tag: "latest"
-      # - image: "docker-ubuntu2004-ansible"
-      #  tag: "latest"
-      # - image: "ubuntu"     # TODO fatal: [reboot-ubuntu-bionic]: FAILED! => {"changed": false, "msg": "No package matching 'needrestart' is available"}
-      #  tag: "bionic"
+      - image: "opensuse"
+        tag: "latest"
+      - image: "docker-ubuntu-systemd"
+        tag: "latest"
+      - image: "docker-ubuntu-systemd"
+        tag: "bionic"
 
-molecule-testing:
+testing:
   script:
     - image=${image} tag=${tag} molecule test
   rules:
     - if: $CI_COMMIT_REF_NAME == "testing"
-  retry: 2
+  retry: 1
   parallel:
     matrix:
-      - image: "docker-ubuntu2004-ansible"
+      - image: "alpine-openrc"
         tag: "latest"
+      - image: "amazonlinux"
+        tag: "latest"
+      - image: "enterpriselinux"
+        tag: "latest"
+      - image: "debian-systemd"
+        tag: "latest"
+      - image: "debian-systemd"
+        tag: "bookworm"
+      - image: "fedora-systemd"
+        tag: "34"
+      - image: "fedora-systemd"
+        tag: "latest"
+      - image: "fedora-systemd"
+        tag: "rawhide"
+      - image: "opensuse"
+        tag: "latest"
+      - image: "docker-ubuntu-systemd"
+        tag: "latest"
+      - image: "docker-ubuntu-systemd"
+        tag: "bionic"
 
 galaxy:
   script:
-    - ansible-galaxy role info ${CI_PROJECT_NAMESPACE}.reboot
+    # - ansible-galaxy role info ${CI_PROJECT_NAMESPACE}.${CI_PROJECT_NAME}
+    - ansible-galaxy role info buluma.reboot
