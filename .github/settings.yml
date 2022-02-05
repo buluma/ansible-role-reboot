@@ -3,6 +3,6 @@
 # Ansible managed
 #
 repository:
-  description: The purpose of this role is to reboot your system.
+  description: The purpose of this role is to well, reboot your system.
   homepage: https://buluma.github.io/
   topics: reboot, ansible, molecule, tox, playbook, hacktoberfest
