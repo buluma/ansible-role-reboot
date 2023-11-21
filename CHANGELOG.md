@@ -1,5 +1,14 @@
 # Changelog
 
+## [Unreleased](https://github.com/buluma/ansible-role-reboot/tree/HEAD)
+
+[Full Changelog](https://github.com/buluma/ansible-role-reboot/compare/1.0.9...HEAD)
+
+**Closed issues:**
+
+- Update buluma/todo-to-issue-action@v1.0.1 @buluma [\#22](https://github.com/buluma/ansible-role-reboot/issues/22)
+- Update action [\#21](https://github.com/buluma/ansible-role-reboot/issues/21)
+
 ## [1.0.9](https://github.com/buluma/ansible-role-reboot/tree/1.0.9) (2022-10-05)
 
 [Full Changelog](https://github.com/buluma/ansible-role-reboot/compare/1.0.8...1.0.9)
