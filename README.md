@@ -2,9 +2,9 @@
 
 The purpose of this role is to well, reboot your system.
 
-|GitHub|GitLab|Downloads|Version|Issues|Pull Requests|
-|------|------|-------|-------|------|-------------|
-|[![github](https://github.com/buluma/ansible-role-reboot/actions/workflows/molecule.yml/badge.svg)](https://github.com/buluma/ansible-role-reboot/actions/workflows/molecule.yml)|[![gitlab](https://gitlab.com/shadowwalker/ansible-role-reboot/badges/master/pipeline.svg)](https://gitlab.com/shadowwalker/ansible-role-reboot)|[![downloads](https://img.shields.io/ansible/role/d/4815)](https://galaxy.ansible.com/buluma/reboot)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-reboot.svg)](https://github.com/buluma/ansible-role-reboot/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-reboot.svg)](https://github.com/buluma/ansible-role-reboot/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-reboot.svg)](https://github.com/buluma/ansible-role-reboot/pulls/)|
+|GitHub|Version|Issues|Pull Requests|
+|------|-------|------|-------------|
+|[![github](https://github.com/buluma/ansible-role-reboot/actions/workflows/molecule.yml/badge.svg)](https://github.com/buluma/ansible-role-reboot/actions/workflows/molecule.yml)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-reboot.svg)](https://github.com/buluma/ansible-role-reboot/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-reboot.svg)](https://github.com/buluma/ansible-role-reboot/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-reboot.svg)](https://github.com/buluma/ansible-role-reboot/pulls/)|
 
 ## [Example Playbook](#example-playbook)
 
@@ -66,9 +66,9 @@ reboot_message: "Ansible role buluma.reboot initiated a reboot."
 
 The following roles are used to prepare a system. You can prepare your system in another way.
 
-| Requirement | GitHub | GitLab |
+| Requirement | GitHub | Version |
 |-------------|--------|--------|
-|[buluma.bootstrap](https://galaxy.ansible.com/buluma/bootstrap)|[![Build Status GitHub](https://github.com/buluma/ansible-role-bootstrap/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-bootstrap/actions)|[![Build Status GitLab](https://gitlab.com/shadowwalker/ansible-role-bootstrap/badges/master/pipeline.svg)](https://gitlab.com/shadowwalker/ansible-role-bootstrap)|
+|[buluma.bootstrap](https://galaxy.ansible.com/buluma/bootstrap)|[![Build Status GitHub](https://github.com/buluma/ansible-role-bootstrap/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-bootstrap/actions)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-bootstrap.svg)](https://github.com/shadowwalker/ansible-role-bootstrap)|
 
 ## [Context](#context)
 
@@ -113,7 +113,6 @@ If you find issues, please register them in [GitHub](https://github.com/buluma/a
 
 [buluma](https://buluma.github.io/)
 
-Please consider [sponsoring me](https://github.com/sponsors/buluma).
 
 ### [Special Thanks](#special-thanks)
 
