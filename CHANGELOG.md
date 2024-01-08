@@ -1,12 +1,16 @@
 # Changelog
 
-## [Unreleased](https://github.com/buluma/ansible-role-reboot/tree/HEAD)
+## [2.1.0](https://github.com/buluma/ansible-role-reboot/tree/2.1.0) (2024-01-02)
 
-[Full Changelog](https://github.com/buluma/ansible-role-reboot/compare/2.0.0...HEAD)
+[Full Changelog](https://github.com/buluma/ansible-role-reboot/compare/2.0.0...2.1.0)
 
 **Closed issues:**
 
 - Update buluma/todo-to-issue-action@v1.0.1 @buluma [\#25](https://github.com/buluma/ansible-role-reboot/issues/25)
+
+**Merged pull requests:**
+
+- Bump actions/checkout from 3 to 4 [\#27](https://github.com/buluma/ansible-role-reboot/pull/27) ([dependabot[bot]](https://github.com/apps/dependabot))
 
 ## [2.0.0](https://github.com/buluma/ansible-role-reboot/tree/2.0.0) (2023-12-25)
 
