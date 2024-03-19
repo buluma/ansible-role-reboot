@@ -6,6 +6,7 @@
 
 **Merged pull requests:**
 
+- Bump buluma/dependabot-auto-merge-action from 2.1.1 to 2.1.2 [\#33](https://github.com/buluma/ansible-role-reboot/pull/33) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump release-drafter/release-drafter from 5 to 6 [\#32](https://github.com/buluma/ansible-role-reboot/pull/32) ([dependabot[bot]](https://github.com/apps/dependabot))
 
 ## [2.2.0](https://github.com/buluma/ansible-role-reboot/tree/2.2.0) (2024-01-20)
