@@ -50,10 +50,6 @@
 
 [Full Changelog](https://github.com/buluma/ansible-role-reboot/compare/1.0.6...1.0.7)
 
-**Merged pull requests:**
-
-- Bump buluma/gh-action-auto-merge-dependabot-updates from 1.0.3 to 1.0.4 [\#14](https://github.com/buluma/ansible-role-reboot/pull/14) ([dependabot[bot]](https://github.com/apps/dependabot))
-
 ## [1.0.6](https://github.com/buluma/ansible-role-reboot/tree/1.0.6) (2022-03-20)
 
 [Full Changelog](https://github.com/buluma/ansible-role-reboot/compare/1.0.5...1.0.6)
@@ -115,6 +111,7 @@
 
 **Merged pull requests:**
 
+- Bump buluma/gh-action-auto-merge-dependabot-updates from 1.0.3 to 1.0.4 [\#14](https://github.com/buluma/ansible-role-reboot/pull/14) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump buluma/galaxy-action from 1.0.1 to 1.1.0 [\#2](https://github.com/buluma/ansible-role-reboot/pull/2) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump alstr/todo-to-issue-action from 2.3 to 4.5.4 [\#1](https://github.com/buluma/ansible-role-reboot/pull/1) ([dependabot[bot]](https://github.com/apps/dependabot))
 
