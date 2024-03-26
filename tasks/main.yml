@@ -3,7 +3,7 @@
 
 - name: Import assert.yml
   ansible.builtin.import_tasks: assert.yml
-  run_once: yes
+  run_once: true
   delegate_to: localhost
 
 - name: Install requirements
@@ -24,7 +24,7 @@
     - name: Check if a reboot is required (rhel)
       ansible.builtin.command:
         cmd: needs-restarting -r
-      check_mode: no
+      check_mode: false
       register: reboot_rhel_needsrestarting
       changed_when:
         - reboot_rhel_needsrestarting.rc == 1
@@ -46,7 +46,7 @@
     - name: Check if a reboot is required (debian)
       ansible.builtin.command:
         cmd: needrestart -b
-      check_mode: no
+      check_mode: false
       register: reboot_debian_needrestarting
       changed_when:
         - "'NEEDRESTART-KSTA: 3' in reboot_debian_needrestarting.stdout_lines"
@@ -59,7 +59,7 @@
   when:
     - ansible_connection not in [ "container", "docker", "community.docker.docker" ]
     - (reboot_always | bool)
-      or (reboot_rhel_needsrestarting.changed | default(no))
-      or (reboot_debian_needrestarting.changed | default(no))
+      or (reboot_rhel_needsrestarting.changed | default(false))
+      or (reboot_debian_needrestarting.changed | default(false))
   tags:
     - skip_ansible_later
