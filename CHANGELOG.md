@@ -29,7 +29,6 @@
 **Merged pull requests:**
 
 - Bump actions/checkout from 3 to 4 [\#27](https://github.com/buluma/ansible-role-reboot/pull/27) ([dependabot[bot]](https://github.com/apps/dependabot))
-- Update README.md [\#3](https://github.com/buluma/ansible-role-reboot/pull/3) ([buluma](https://github.com/buluma))
 
 ## [2.0.0](https://github.com/buluma/ansible-role-reboot/tree/2.0.0) (2023-12-25)
 
@@ -109,6 +108,7 @@
 **Merged pull requests:**
 
 - Testing [\#5](https://github.com/buluma/ansible-role-reboot/pull/5) ([buluma](https://github.com/buluma))
+- Update README.md [\#3](https://github.com/buluma/ansible-role-reboot/pull/3) ([buluma](https://github.com/buluma))
 
 ## [1.0.0](https://github.com/buluma/ansible-role-reboot/tree/1.0.0) (2022-02-03)
 
