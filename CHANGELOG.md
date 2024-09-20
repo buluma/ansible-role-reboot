@@ -1,5 +1,13 @@
 # Changelog
 
+## [Unreleased](https://github.com/buluma/ansible-role-reboot/tree/HEAD)
+
+[Full Changelog](https://github.com/buluma/ansible-role-reboot/compare/24.3.31...HEAD)
+
+**Merged pull requests:**
+
+- Bump ansible/ansible-lint from 24.7.0 to 24.9.0 [\#37](https://github.com/buluma/ansible-role-reboot/pull/37) ([dependabot[bot]](https://github.com/apps/dependabot))
+
 ## [24.3.31](https://github.com/buluma/ansible-role-reboot/tree/24.3.31) (2024-03-29)
 
 [Full Changelog](https://github.com/buluma/ansible-role-reboot/compare/2.2.0...24.3.31)
