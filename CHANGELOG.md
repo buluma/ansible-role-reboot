@@ -6,6 +6,7 @@
 
 **Merged pull requests:**
 
+- Bump ansible/ansible-lint from 24.9.0 to 24.9.2 [\#38](https://github.com/buluma/ansible-role-reboot/pull/38) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump ansible/ansible-lint from 24.7.0 to 24.9.0 [\#37](https://github.com/buluma/ansible-role-reboot/pull/37) ([dependabot[bot]](https://github.com/apps/dependabot))
 
 ## [24.3.31](https://github.com/buluma/ansible-role-reboot/tree/24.3.31) (2024-03-29)
@@ -34,10 +35,6 @@
 
 - Update buluma/todo-to-issue-action@v1.0.1 @buluma [\#25](https://github.com/buluma/ansible-role-reboot/issues/25)
 
-**Merged pull requests:**
-
-- Bump actions/checkout from 3 to 4 [\#27](https://github.com/buluma/ansible-role-reboot/pull/27) ([dependabot[bot]](https://github.com/apps/dependabot))
-
 ## [2.0.0](https://github.com/buluma/ansible-role-reboot/tree/2.0.0) (2023-12-25)
 
 [Full Changelog](https://github.com/buluma/ansible-role-reboot/compare/1.0.9...2.0.0)
@@ -61,6 +58,7 @@
 
 **Merged pull requests:**
 
+- Bump actions/checkout from 3 to 4 [\#27](https://github.com/buluma/ansible-role-reboot/pull/27) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump buluma/gh-action-auto-merge-dependabot-updates from 1.0.3 to 1.0.4 [\#14](https://github.com/buluma/ansible-role-reboot/pull/14) ([dependabot[bot]](https://github.com/apps/dependabot))
 
 ## [1.0.6](https://github.com/buluma/ansible-role-reboot/tree/1.0.6) (2022-03-20)
